@@ -9,6 +9,9 @@ SciData's activity for the Halloween Week 2019 at FDI UCM
 * google quick draw game: https://quickdraw.withgoogle.com/#
 * tutorial reference for this example: https://www.youtube.com/watch?v=GMaKcRkiNoM
 * wikipedia RNN: https://en.wikipedia.org/wiki/Recurrent_neural_network
+* Ml5 docs: https://ml5js.org/
+* p5 docs: https://p5js.org/
+* quick draw dataset github (categories): https://github.com/googlecreativelab/quickdraw-dataset/blob/master/categories.txt
 
 ### Brief Recurrent Neural Network explanation:
 
@@ -22,3 +25,12 @@ There are two different types:
 
 The most simple form of it, is organised as a feedforward would be , but the connections are represented as in a graph. Each neuron can be activated or deactivated.  
 
+### Brief code explanation (keys):
+
+* Ml5 library! This makes it super easy to do this otherwise complex task and allows to represent it in the browser which is a good thing. 
+* P5 js! This allows for easy drawing and manipulation of drawings in the canvas, it is also super easy to use!
+* In this example, we want to do something similar to the magenta sketch rnn , but as we will see, there will be some key differences. 
+* Key functions and values:
+  1. Preload function: value in the ```ml5.sketchRNN('value')``` is the object that we will be moldelling.
+  2. sketchRNNstart: ```sketchRNN.generate(prevPath, newPath)``` allows us to give it a certain path and then it continues from there.
+  3. All the drawing stuff is handled in the draw loop (this is all p5 js and some magic).
