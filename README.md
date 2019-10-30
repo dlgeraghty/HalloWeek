@@ -12,6 +12,7 @@ SciData's activity for the Halloween Week 2019 at FDI UCM
 * Ml5 docs: https://ml5js.org/
 * p5 docs: https://p5js.org/
 * quick draw dataset github (categories): https://github.com/googlecreativelab/quickdraw-dataset/blob/master/categories.txt
+* RDP algorithm: https://www.youtube.com/watch?v=nSYw9GrakjY
 
 ### Brief Recurrent Neural Network explanation:
 
